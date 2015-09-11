@@ -1,8 +1,10 @@
 cpubigarray.c
+
 There is a big array problem for the people Dijsktra and Mandelbrot. 
 I rewrite the array set to make it capable with big array
 
 mandelbrot_OPEN.c
+
 It implements mandelbrot set by openMP
 example:
 gcc mandelbrot_OPEN.c -o mandelbrot_OPEN -lm -fopenmp
@@ -10,6 +12,7 @@ gcc mandelbrot_OPEN.c -o mandelbrot_OPEN -lm -fopenmp
 
 
 mandelbort_mpi.c
+
 This the mandelbrot_mpi combining openMP and MPI together, 
 it can schedule the task by add command -DRC -DDYNAMIC -DSTATIC
 -DGUIDED at complie stage
@@ -20,6 +23,7 @@ the 500 is the number of pixels
 the 0 is the printout node rank
 
 definetest.c
+
 THis is just my practice for the c macro command arguments
 example:
 gcc definetest.c -o definetest -DMACRO2
@@ -29,4 +33,5 @@ http://www.thegeekstuff.com/2012/05/c-macros/
 
 
 mp_mandelbrot_mpi_v1.c
+
 This is designed to my assignment
