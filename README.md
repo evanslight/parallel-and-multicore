@@ -26,3 +26,7 @@ gcc definetest.c -o definetest -DMACRO2
 ./definetest
 clear explanation for macro:
 http://www.thegeekstuff.com/2012/05/c-macros/
+
+
+mp_mandelbrot_mpi_v1.c
+This is designed to my assignment
