@@ -1,10 +1,4 @@
-//
-//  test.c
-//  Parallel
-//
-//  Created by SUN YU on 19/08/2015.
-//  Copyright (c) 2015 SUN YU. All rights reserved.
-//
+
 
 # include <stdlib.h>
 # include <stdio.h>
